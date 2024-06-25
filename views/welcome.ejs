@@ -1,0 +1,14 @@
+<!DOCTYPE html>         <!-- Sample Welcome Page -->
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, <%= username %></h1>
+        <p>Your groups: <%= groups.join(', ') %></p>
+        <a href="/logout">Logout</a>
+    </div>
+</body>
+</html>
